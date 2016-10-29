@@ -1,6 +1,6 @@
 /*****************************************************************
 **Author: Glenn Upthagrove
-**Last Update: 10/28/16
+**Last Update: 10/29/16
 **Birth Date: 10/28/16
 **Description: A program that opens a file specified by the user. 
 The file must be HTML code. It then takes this code and wraps it into a 
@@ -23,11 +23,14 @@ void get_input(char* return_string){
   scanf("%128s", input_buffer);
   strcpy(return_string, input_buffer);
 }
+void get_full_file(int file, char* return_string){
+  
+}
 int main(){
   char* input;
-  int input_file = -1;
   int output_file = -1;
-  input = malloc(sizeof(char)*128);  
+  int input_file = -1;
+  input = malloc(sizeof(char)*128);
   while(input_file < 0){
     memset(input, '\0', 128);
     printf("Enter the file you would like to read from> ");
