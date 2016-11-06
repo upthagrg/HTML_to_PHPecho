@@ -12,7 +12,7 @@ This is then sent to a file of the users choice.
 #include <string.h> 
 #include <sys/stat.h>
 #include <sys/types.h>
-#include<fcntl.h>
+#include <fcntl.h>
 #include <stdlib.h>
 
 /****************************************************************
