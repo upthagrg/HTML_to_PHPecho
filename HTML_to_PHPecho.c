@@ -42,7 +42,7 @@ int main(){
     printf("Enter the file you would like to write to> ");
     get_input(input);
     output_file = open(input, O_WRONLY | O_CREAT | O_TRUNC, 0644);
-    if(input_file < 0){
+    if(output_file < 0){
       printf("ERROR OPENING FILE\n");
     )
   }
