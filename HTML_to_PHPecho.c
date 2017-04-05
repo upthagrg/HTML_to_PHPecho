@@ -96,7 +96,7 @@ int main(int argc, char* argv[]){
   //if using command line arguments
   if(cl_bit == 1){
     if(strcmp(argv[1], "-help") == 0){
-          printf("Title: HTML_TO_PHPecho / h3p. \nAuthor: Glenn Upthagrove \nDate: 02/07/2017\nUsage: h2p [html_file] [output_file]\nCan also be run as ./h2p and user will be prompted for file names.\nTakes HTML from a file and stores into an output file as a proper PHP echo statement. If the output file does not exist it will be made. \nReport issues and find out more at the github page: https://github.com/upthagrg/HTML_to_PHPecho.\n");
+          printf("Title: HTML_TO_PHPecho / h2p. \nAuthor: Glenn Upthagrove \nDate: 02/07/2017\nUsage: h2p [html_file] [output_file]\nCan also be run as ./h2p and user will be prompted for file names.\nTakes HTML from a file and stores into an output file as a proper PHP echo statement. If the output file does not exist it will be made. \nReport issues and find out more at the github page: https://github.com/upthagrg/HTML_to_PHPecho.\n");
 	  return 0;
     }
     else if((strcmp(argv[0], "-help") != 0) && (argc == 2)){
